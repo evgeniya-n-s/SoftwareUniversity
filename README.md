@@ -1,3 +1,3 @@
 # SoftwareUniversity
 Home work
-Exam
+Exams
