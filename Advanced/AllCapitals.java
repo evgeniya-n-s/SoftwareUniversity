@@ -7,8 +7,8 @@ import java.util.List;
 public class AllCapitals {
     public static void main(String[] args) throws IOException {
 
-        Path inpath = Path.of ( "C:\\Users\\Evgeniq.000\\Desktop\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\input.txt" );
-        Path outpath = Path.of ( "C:\\Users\\Evgeniq.000\\Desktop\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\output.txt" );
+        Path inpath = Path.of ( "input.txt" );
+        Path outpath = Path.of ( "output.txt" );
 
         List<String> lines = Files.readAllLines (inpath);
         lines.forEach ( line-> System.out.println (line.toUpperCase()) );
