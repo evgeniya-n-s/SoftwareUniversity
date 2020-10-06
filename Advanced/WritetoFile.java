@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class WritetoFile {
     public static void main(String[] args) throws FileNotFoundException {
 
-        String path = "C:\\Users\\000\\Desktop\\04. Java-Advanced-Files-and-Streams-Lab-Resources\\input.txt";
+        String path = "input.txt";
 
         FileInputStream inputStream = new FileInputStream ( path );
 
