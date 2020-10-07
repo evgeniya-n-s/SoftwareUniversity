@@ -5,7 +5,7 @@ import java.nio.file.Path;
 public class SumBytes {
     public static void main(String[] args) throws IOException {
 
-        Path path = Path.of ( "C:\\Users\\Evgeniq.000\\Desktop\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\input.txt" );
+        Path path = Path.of ( "C:\\Users\\000\\Desktop\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\input.txt" );
 
         long sum = 0;
 
