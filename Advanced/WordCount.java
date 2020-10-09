@@ -6,7 +6,7 @@ import java.util.*;
 public class WordCount {
     public static void main(String[] args) throws IOException {
 
-        Path path = Path.of ( "C:\\Users\\Evgeniq.000\\Desktop\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\Exercises Resources\\words.txt" );
+        Path path = Path.of ( "words.txt" );
 
         List<String> line = Files.readAllLines (path);
 
@@ -19,7 +19,7 @@ public class WordCount {
             }
         }
 
-        Path path1 = Path.of ( "C:\\Users\\Evgeniq.000\\Desktop\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\Exercises Resources\\text.txt" );
+        Path path1 = Path.of ( "text.txt" );
         List<String> searchLine = Files.readAllLines ( path1 );
 
         for (String lines: searchLine){
