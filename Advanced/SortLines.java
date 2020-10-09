@@ -13,13 +13,13 @@ import java.util.stream.Collectors;
 public class SortLines {
     public static void main(String[] args) throws IOException {
 
-        Path path = Paths.get("C:\\Users\\000\\Desktop\\04. Java-Advanced-Files-and-Streams-Lab-Resources\\input.txt");
-        Path output = Paths.get ( "C:\\Users\\000\\Desktop\\04. Java-Advanced-Files-and-Streams-Lab-Resources\\06.SortLinesOutput.txt" );
+        Path path = Paths.get("input.txt");
+        Path output = Paths.get ( "06.SortLinesOutput.txt" );
 //        List<String> strings = Files.readAllLines (path);
 //
 //        Collections.sort ( strings );
 
-//        Files.write ( Paths.get("C:\\Users\\Evgeniq.000\\Desktop\\04. Java-Advanced-Files-and-Streams-Lab-Resources\\06.SortLinesOutput.txt"),strings );
+//        Files.write ( Paths.get("06.SortLinesOutput.txt"),strings );
 
         try {
 
