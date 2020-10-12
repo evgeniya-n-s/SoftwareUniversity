@@ -5,7 +5,7 @@ import java.util.Deque;
 public class NestedFolders {
     public static void main(String[] args) {
 
-        File file = new File ("C:\\Users\\000\\Desktop\\04. Java-Advanced-Files-and-Streams-Lab-Resources\\Files-and-Streams");
+        File file = new File ("Files-and-Streams");
 
         Deque<File> deque = new ArrayDeque<> (  );
         deque.add(file);
