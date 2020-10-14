@@ -11,7 +11,7 @@ public class ExtractIntegers {
 
         Scanner scanner = new Scanner ( new FileInputStream ( path ) );
 
-        PrintWriter writer = new PrintWriter ( "C:\\Users\\000\\Desktop\\04. Java-Advanced-Files-and-Streams-Lab-Resources\\04.ExtractIntegersOutput.txt" );
+        PrintWriter writer = new PrintWriter ( "04.ExtractIntegersOutput.txt" );
 
         while (scanner.hasNext ()){
             if(scanner.hasNextInt ()) {
