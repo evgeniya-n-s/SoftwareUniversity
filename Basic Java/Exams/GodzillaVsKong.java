@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class GodzillaVsKong {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -16,8 +15,8 @@ public class GodzillaVsKong {
 
         }
         //Ако парите за декора и дрехите са повече от бюджета:
-        // o &quot;Not enough money!&quot;
-        // o &quot;Wingard needs {парите недостигащи за филма} leva more.&quot;
+       // o &quot;Not enough money!&quot;
+       // o &quot;Wingard needs {парите недостигащи за филма} leva more.&quot;
         //Ако парите за декора и дрехите са по малко или равни на бюджета:
         //o &quot;Action!&quot;
         //o &quot;Wingard starts filming with {останалите пари} leva left.&quot;
@@ -36,4 +35,3 @@ public class GodzillaVsKong {
         }
     }
 }
-
