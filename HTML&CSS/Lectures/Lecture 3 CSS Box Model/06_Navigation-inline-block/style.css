@@ -1,0 +1,17 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+h1, li, ul, nav {
+    display:inline-block;
+}
+li {
+    padding: 10px;
+}
+header {
+    border-bottom: 1px solid black;
+}
+a {
+    text-decoration: none;
+    color: green;
+}
