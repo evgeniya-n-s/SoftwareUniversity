@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+  }
+
+  header h1 {
+    display: inline;
+    vertical-align: middle;
+  }
+
+  aside ul {
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+  }
+
+  li a{
+    display: block;
+    padding: 5px 0px;
+    color: rgb(86, 40, 129);
+    text-decoration: none;
+  }
+  
