@@ -1,0 +1,30 @@
+@import url("https://use.fontawesome.com/releases/v5.10.0/css/all.css ");
+
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.viewport .card {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.viewport {
+    height: 100vh;
+    position: relative;
+}
+img {
+    width: 50vh;
+    border-radius: 4px;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.9) inset;
+}
+i {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
