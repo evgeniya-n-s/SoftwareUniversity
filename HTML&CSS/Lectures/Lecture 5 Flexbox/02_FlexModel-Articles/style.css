@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 70vw;
+    gap: 50px;
+}
+
+h2{
+font-family: Georgia, serif;
+line-height: 1.2;
+}
+
+article{
+  width: 200px;
+}
