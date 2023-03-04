@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+}
+h1 {
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    padding-bottom: .5em;
+}
+h1, h2, p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+footer {
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
