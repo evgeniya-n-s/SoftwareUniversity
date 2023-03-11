@@ -1,0 +1,143 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+body {
+    padding: 40px;
+    background-color: rgb(238, 238, 238);
+}
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+/* aside {
+    display: flex;
+    flex-basis: 10%;
+    flex-direction: column;
+    padding-left: 2em;
+} */
+body>header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 100%;
+    align-items: baseline;
+    /* border: 1px solid blue; */
+}
+header nav p{
+    display: flex;
+}
+header nav ul{
+    display: flex;
+}
+/* header {
+    display: inline-block;
+} */
+header p {
+    font-size: 30px;
+}
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li {
+    padding: 10px;
+}
+body>header:nth-child(1) {
+    border-bottom: 1px solid black;
+}
+header nav ul a {
+    text-decoration: none;
+    color: green;
+}
+img {
+    
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.25) ;
+}
+.first-image{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.second-image{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+h1, h3 {
+    font-family: Georgia, serif;
+}
+h1 {
+    font-size: 1.2rem;
+}
+h3 {
+    font-size: 1rem;
+}
+a {
+    color:rgb(0, 153, 0);
+    text-decoration: none;
+    line-height: 1.6;
+}
+blockquote {
+    float: right;
+    width: 40%;
+    height: 150px;
+    border-left: 1px solid darkgrey;
+    padding-left: 20px;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+blockquote p:last-child{
+    text-align: right;
+}
+@media (max-width: 1800px) {
+    html {
+        font-size: 23px;
+    }
+    
+}
+@media (max-width: 1300px) {
+    html {
+        font-size: 21px;
+    }
+    
+}
+@media (max-width: 800px) {
+    html {
+        font-size: 13px;
+    }
+}
+@media (max-width: 600px) {
+    html {
+        font-size: 16px;
+    }
+    .first-image {
+        float: left;
+        margin: 0px 300px 20px 0;
+    }
+    blockquote {
+        float: left;
+        width: 80%;
+        padding-left: 20px;
+
+    }
+}
+@media (max-width: 500px) {
+    html {
+        font-size: 14px;
+    }
+}
