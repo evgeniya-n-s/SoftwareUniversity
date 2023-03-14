@@ -1,0 +1,19 @@
+@import url("./reset.css");
+table {
+    width: 90%;
+    margin: 2em auto;
+}
+th {
+    width: 33%;
+    padding: .5em;
+    color: white;
+    text-align: left;
+    background-color: rgb(54, 54, 54); 
+}
+table tr:nth-child(2n-1) {
+    background-color: lightgrey;
+}
+td {
+    padding: .5em;
+    border: 1px solid lightgrey;
+}
