@@ -20,3 +20,4 @@ This repository contains the following courses:
   - Exercise
   - Lectures
 7. HTML & CSS
+  - Exercise
