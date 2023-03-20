@@ -19,3 +19,6 @@ This repository contains the following courses:
   - Exams
   - Exercise
   - Lectures
+7. HTML & CSS
+  - Exercise
+  - Lectures
